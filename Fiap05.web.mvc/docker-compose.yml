@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fiap05.web.mvc:
+    image: ${DOCKER_REGISTRY}fiap05webmvc
+    build:
+      context: .\Fiap05.web.mvc
+      dockerfile: Dockerfile
